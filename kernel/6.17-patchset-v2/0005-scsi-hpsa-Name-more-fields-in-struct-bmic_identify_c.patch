@@ -133,7 +133,7 @@ index 7825cbfea4dc..be58646fa22f 100644
  	u8	controller_mode;	/* offset 292 */
 -	u8	pad3[32];
 +	u8	reserved_8[32];
- };
+ } __packed;
  
  
 -- 
